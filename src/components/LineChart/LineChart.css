@@ -1,0 +1,8 @@
+.dropdown-select{
+    border: none;
+    background: none;
+}
+.dropdown-select:focus{
+    border: none;
+    background: none;
+}

@@ -1,0 +1,587 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Define regular font size classes with Poppins font */
+.text-regular-10 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.4rem + 0.2vw);
+  line-height: calc(0.7rem + 0.2vw);
+  font-weight: 400;
+}
+
+.text-regular-12 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.5rem + 0.3vw);
+  line-height: calc(0.9rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-14 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.7rem + 0.3vw);
+  line-height: calc(1.1rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-16 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.8rem + 0.3vw);
+  line-height: calc(1.2rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-18 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1rem + 0.3vw);
+  line-height: calc(1.4rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-20 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.2rem + 0.3vw);
+  line-height: calc(1.6rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-22 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.3rem + 0.3vw);
+  line-height: calc(1.7rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-24 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.5rem + 0.3vw);
+  line-height: calc(1.9rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-26 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.6rem + 0.3vw);
+  line-height: calc(2rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-28 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.8rem + 0.3vw);
+  line-height: calc(2.2rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-30 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.9rem + 0.3vw);
+  line-height: calc(2.3rem + 0.3vw);
+  font-weight: 400;
+}
+
+.text-regular-32 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(2rem + 0.3vw);
+  line-height: calc(2.5rem + 0.3vw);
+  font-weight: 400;
+}
+
+/* Define semibold font size classes with Poppins font */
+.text-semibold-10 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.4rem + 0.2vw);
+  line-height: calc(0.7rem + 0.2vw);
+  font-weight: 600;
+}
+
+.text-semibold-12 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.5rem + 0.3vw);
+  line-height: calc(0.9rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-14 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.7rem + 0.3vw);
+  line-height: calc(1.1rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-16 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.8rem + 0.3vw);
+  line-height: calc(1.2rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-18 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1rem + 0.3vw);
+  line-height: calc(1.4rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-20 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.2rem + 0.3vw);
+  line-height: calc(1.6rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-22 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.3rem + 0.3vw);
+  line-height: calc(1.7rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-24 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.5rem + 0.3vw);
+  line-height: calc(1.9rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-26 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.6rem + 0.3vw);
+  line-height: calc(2rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-28 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.8rem + 0.3vw);
+  line-height: calc(2.2rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-30 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.9rem + 0.3vw);
+  line-height: calc(2.3rem + 0.3vw);
+  font-weight: 600;
+}
+
+.text-semibold-32 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(2rem + 0.3vw);
+  line-height: calc(2.5rem + 0.3vw);
+  font-weight: 600;
+}
+
+/* Define bold font size classes with Poppins font */
+.text-bold-10 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.4rem + 0.2vw);
+  line-height: calc(0.7rem + 0.2vw);
+  font-weight: 700;
+}
+
+.text-bold-12 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.5rem + 0.3vw);
+  line-height: calc(0.9rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-14 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.7rem + 0.3vw);
+  line-height: calc(1.1rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-16 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.8rem + 0.3vw);
+  line-height: calc(1.2rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-18 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1rem + 0.3vw);
+  line-height: calc(1.4rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-20 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.2rem + 0.3vw);
+  line-height: calc(1.6rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-22 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.3rem + 0.3vw);
+  line-height: calc(1.7rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-24 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.5rem + 0.3vw);
+  line-height: calc(1.9rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-26 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.6rem + 0.3vw);
+  line-height: calc(2rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-28 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.8rem + 0.3vw);
+  line-height: calc(2.2rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-30 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.9rem + 0.3vw);
+  line-height: calc(2.3rem + 0.3vw);
+  font-weight: 700;
+}
+
+.text-bold-32 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(2rem + 0.3vw);
+  line-height: calc(2.5rem + 0.3vw);
+  font-weight: 700;
+}
+
+/* Define extrabold font size classes with Poppins font */
+.text-extrabold-10 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.4rem + 0.2vw);
+  line-height: calc(0.7rem + 0.2vw);
+  font-weight: 800;
+}
+
+.text-extrabold-12 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.5rem + 0.3vw);
+  line-height: calc(0.9rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-14 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.7rem + 0.3vw);
+  line-height: calc(1.1rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-16 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(0.8rem + 0.3vw);
+  line-height: calc(1.2rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-18 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1rem + 0.3vw);
+  line-height: calc(1.4rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-20 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.2rem + 0.3vw);
+  line-height: calc(1.6rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-22 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.3rem + 0.3vw);
+  line-height: calc(1.7rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-24 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.5rem + 0.3vw);
+  line-height: calc(1.9rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-26 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.6rem + 0.3vw);
+  line-height: calc(2rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-28 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.8rem + 0.3vw);
+  line-height: calc(2.2rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-30 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(1.9rem + 0.3vw);
+  line-height: calc(2.3rem + 0.3vw);
+  font-weight: 800;
+}
+
+.text-extrabold-32 {
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(2rem + 0.3vw);
+  line-height: calc(2.5rem + 0.3vw);
+  font-weight: 800;
+}
+
+/* Responsive adjustments for screens larger than 1500px */
+@media (min-width: 1500px) {
+  .text-regular-10 {
+    font-size: calc(0.4rem + 0.1vw);
+    line-height: calc(0.7rem + 0.1vw);
+  }
+
+  .text-regular-12 {
+    font-size: calc(0.5rem + 0.15vw);
+    line-height: calc(0.9rem + 0.15vw);
+  }
+
+  .text-regular-14 {
+    font-size: calc(0.7rem + 0.15vw);
+    line-height: calc(1.1rem + 0.15vw);
+  }
+
+  .text-regular-16 {
+    font-size: calc(0.8rem + 0.15vw);
+    line-height: calc(1.2rem + 0.15vw);
+  }
+
+  .text-regular-18 {
+    font-size: calc(1rem + 0.15vw);
+    line-height: calc(1.4rem + 0.15vw);
+  }
+
+  .text-regular-20 {
+    font-size: calc(1.2rem + 0.15vw);
+    line-height: calc(1.6rem + 0.15vw);
+  }
+
+  .text-regular-22 {
+    font-size: calc(1.3rem + 0.15vw);
+    line-height: calc(1.7rem + 0.15vw);
+  }
+
+  .text-regular-24 {
+    font-size: calc(1.5rem + 0.15vw);
+    line-height: calc(1.9rem + 0.15vw);
+  }
+
+  .text-regular-26 {
+    font-size: calc(1.6rem + 0.15vw);
+    line-height: calc(2rem + 0.15vw);
+  }
+
+  .text-regular-28 {
+    font-size: calc(1.8rem + 0.15vw);
+    line-height: calc(2.2rem + 0.15vw);
+  }
+
+  .text-regular-30 {
+    font-size: calc(1.9rem + 0.15vw);
+    line-height: calc(2.3rem + 0.15vw);
+  }
+
+  .text-regular-32 {
+    font-size: calc(2rem + 0.15vw);
+    line-height: calc(2.5rem + 0.15vw);
+  }
+
+  /* Repeat similar adjustments for semibold, bold, and extrabold classes */
+
+  .text-semibold-10 {
+    font-size: calc(0.4rem + 0.1vw);
+    line-height: calc(0.7rem + 0.1vw);
+  }
+
+  .text-semibold-12 {
+    font-size: calc(0.5rem + 0.15vw);
+    line-height: calc(0.9rem + 0.15vw);
+  }
+
+  .text-semibold-14 {
+    font-size: calc(0.7rem + 0.15vw);
+    line-height: calc(1.1rem + 0.15vw);
+  }
+
+  .text-semibold-16 {
+    font-size: calc(0.8rem + 0.15vw);
+    line-height: calc(1.2rem + 0.15vw);
+  }
+
+  .text-semibold-18 {
+    font-size: calc(1rem + 0.15vw);
+    line-height: calc(1.4rem + 0.15vw);
+  }
+
+  .text-semibold-20 {
+    font-size: calc(1.2rem + 0.15vw);
+    line-height: calc(1.6rem + 0.15vw);
+  }
+
+  .text-semibold-22 {
+    font-size: calc(1.3rem + 0.15vw);
+    line-height: calc(1.7rem + 0.15vw);
+  }
+
+  .text-semibold-24 {
+    font-size: calc(1.5rem + 0.15vw);
+    line-height: calc(1.9rem + 0.15vw);
+  }
+
+  .text-semibold-26 {
+    font-size: calc(1.6rem + 0.15vw);
+    line-height: calc(2rem + 0.15vw);
+  }
+
+  .text-semibold-28 {
+    font-size: calc(1.8rem + 0.15vw);
+    line-height: calc(2.2rem + 0.15vw);
+  }
+
+  .text-semibold-30 {
+    font-size: calc(1.9rem + 0.15vw);
+    line-height: calc(2.3rem + 0.15vw);
+  }
+
+  .text-semibold-32 {
+    font-size: calc(2rem + 0.15vw);
+    line-height: calc(2.5rem + 0.15vw);
+  }
+
+  .text-bold-10 {
+    font-size: calc(0.4rem + 0.1vw);
+    line-height: calc(0.7rem + 0.1vw);
+  }
+
+  .text-bold-12 {
+    font-size: calc(0.5rem + 0.15vw);
+    line-height: calc(0.9rem + 0.15vw);
+  }
+
+  .text-bold-14 {
+    font-size: calc(0.7rem + 0.15vw);
+    line-height: calc(1.1rem + 0.15vw);
+  }
+
+  .text-bold-16 {
+    font-size: calc(0.8rem + 0.15vw);
+    line-height: calc(1.2rem + 0.15vw);
+  }
+
+  .text-bold-18 {
+    font-size: calc(1rem + 0.15vw);
+    line-height: calc(1.4rem + 0.15vw);
+  }
+
+  .text-bold-20 {
+    font-size: calc(1.2rem + 0.15vw);
+    line-height: calc(1.6rem + 0.15vw);
+  }
+
+  .text-bold-22 {
+    font-size: calc(1.3rem + 0.15vw);
+    line-height: calc(1.7rem + 0.15vw);
+  }
+
+  .text-bold-24 {
+    font-size: calc(1.5rem + 0.15vw);
+    line-height: calc(1.9rem + 0.15vw);
+  }
+
+  .text-bold-26 {
+    font-size: calc(1.6rem + 0.15vw);
+    line-height: calc(2rem + 0.15vw);
+  }
+
+  .text-bold-28 {
+    font-size: calc(1.8rem + 0.15vw);
+    line-height: calc(2.2rem + 0.15vw);
+  }
+
+  .text-bold-30 {
+    font-size: calc(1.9rem + 0.15vw);
+    line-height: calc(2.3rem + 0.15vw);
+  }
+
+  .text-bold-32 {
+    font-size: calc(2rem + 0.15vw);
+    line-height: calc(2.5rem + 0.15vw);
+  }
+
+  .text-extrabold-10 {
+    font-size: calc(0.4rem + 0.1vw);
+    line-height: calc(0.7rem + 0.1vw);
+  }
+
+  .text-extrabold-12 {
+    font-size: calc(0.5rem + 0.15vw);
+    line-height: calc(0.9rem + 0.15vw);
+  }
+
+  .text-extrabold-14 {
+    font-size: calc(0.7rem + 0.15vw);
+    line-height: calc(1.1rem + 0.15vw);
+  }
+
+  .text-extrabold-16 {
+    font-size: calc(0.8rem + 0.15vw);
+    line-height: calc(1.2rem + 0.15vw);
+  }
+
+  .text-extrabold-18 {
+    font-size: calc(1rem + 0.15vw);
+    line-height: calc(1.4rem + 0.15vw);
+  }
+
+  .text-extrabold-20 {
+    font-size: calc(1.2rem + 0.15vw);
+    line-height: calc(1.6rem + 0.15vw);
+  }
+
+  .text-extrabold-22 {
+    font-size: calc(1.3rem + 0.15vw);
+    line-height: calc(1.7rem + 0.15vw);
+  }
+
+  .text-extrabold-24 {
+    font-size: calc(1.5rem + 0.15vw);
+    line-height: calc(1.9rem + 0.15vw);
+  }
+
+  .text-extrabold-26 {
+    font-size: calc(1.6rem + 0.15vw);
+    line-height: calc(2rem + 0.15vw);
+  }
+
+  .text-extrabold-28 {
+    font-size: calc(1.8rem + 0.15vw);
+    line-height: calc(2.2rem + 0.15vw);
+  }
+
+  .text-extrabold-30 {
+    font-size: calc(1.9rem + 0.15vw);
+    line-height: calc(2.3rem + 0.15vw);
+  }
+
+  .text-extrabold-32 {
+    font-size: calc(2rem + 0.15vw);
+    line-height: calc(2.5rem + 0.15vw);
+  }
+}

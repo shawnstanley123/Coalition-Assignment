@@ -1,0 +1,34 @@
+.card_custom{
+    background: #F4F0FE;
+    border-radius: 10px;
+}
+.card_custom1{
+    background: #E0F3FA;
+    border-radius: 10px;
+}
+.card_custom2{
+    background: #FFE6E9;
+    border-radius: 10px;
+}
+.card_custom3{
+    background: #FFE6F1;
+    border-radius: 10px;
+}
+.circle-dot {
+    width: 10px;        
+    height: 10px;       
+    background-color: #E66FD2; 
+    border-radius: 50%; 
+    display: inline-block; 
+  }
+  .circle-dot1 {
+    width: 10px;        
+    height: 10px;       
+    background-color: #8C6FE6; 
+    border-radius: 50%; 
+    display: inline-block; 
+  }
+  .image3{
+    height: 70px;
+    width: 70px;
+  }

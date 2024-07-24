@@ -1,0 +1,26 @@
+.scroll{
+    max-height: 800px;
+}
+.scroll::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; 
+  }
+  
+  .scroll::-webkit-scrollbar-track {
+    border: 1px solid white;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px #000; 
+    border-radius: 20px;
+  }
+  
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: #000;
+  }
+  .selector:hover{
+    background-color: #D8FCF7;
+    cursor: pointer;
+  }
