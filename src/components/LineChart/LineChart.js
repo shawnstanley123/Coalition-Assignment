@@ -1,7 +1,7 @@
 // src/components/LineChart.js
 import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
-import Select from 'react-select';
+
 import  './LineChart.css'
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 import { format, subMonths, subYears, isSameMonth, startOfMonth, endOfMonth } from 'date-fns';
